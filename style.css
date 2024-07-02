@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EBF4F6; /* Warna abu-abu terang */
+}
+
+header {
+    background-color: #071952; /* Warna biru tua */
+    color: #EBF4F6; /* Warna abu-abu terang untuk teks */
+    text-align: center;
+    padding: 0;
+    border-bottom: 4px solid #37B7C3; /* Warna biru kehijauan terang */
+}
+
+.header-title {
+    padding: 20px 0; /* Ruang sekitar judul */
+}
+
+.header-title h1 {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.menu {
+    background-color: #37B7C3; /* Warna biru kehijauan terang */
+    padding: 10px 0;
+    position: Sticky; /* Menu tetap pada posisi atas layar saat menggulir */
+    top: 0; /* Menempatkan menu pada posisi teratas */
+    z-index: 1000; /* Memastikan menu berada di atas konten lainnya */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+    border-bottom: 2px solid #088395; /* Warna biru kehijauan gelap */
+}
+
+.menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Atur agar menu berada di tengah */
+}
+
+.menu nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu nav a {
+    text-decoration: none;
+    color: #EBF4F6; /* Warna abu-abu terang */
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Tambah transisi pada hover */
+}
+
+.menu nav a:hover {
+    background-color: #088395; /* Warna biru kehijauan gelap saat dihover */
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+    padding-top: 20px; /* Menyesuaikan konten dengan menu tetap */
+}
+
+.sidebar-left, .sidebar-right {
+    width: 20%;
+    padding: 20px;
+    background-color: #37B7C3; /* Warna biru kehijauan terang */
+    margin-right: 10px;
+    border: 1px solid #088395; /* Warna biru kehijauan gelap */
+}
+
+.sidebar-left h2, .sidebar-right h2 {
+    border-bottom: 2px solid #088395; /* Warna biru kehijauan gelap */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.sidebar-left ul, .sidebar-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-left li, .sidebar-right li {
+    margin: 10px 0;
+}
+
+.sidebar-left a, .sidebar-right a {
+    text-decoration: none;
+    color: #071952; /* Warna biru tua */
+}
+
+.content {
+    flex: 1;
+    background-color: #EBF4F6; /* Warna abu-abu terang */
+    padding: 20px;
+    border: 1px solid #088395; /* Warna biru kehijauan gelap */
+    margin-right: 10px;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #071952; /* Warna biru tua */
+}
+
+.news-article {
+    margin-bottom: 20px;
+}
+
+.news-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-article h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #071952; /* Warna biru tua */
+}
+
+.news-article p {
+    color: #666;
+}
+
+.news-article a {
+    color: #088395; /* Warna biru kehijauan gelap */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-summary {
+    margin-bottom: 10px;
+}
+
+.news-summary img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-summary p {
+    color: #fff;
+    margin: 5px 0 0;
+}
+
+footer {
+    background-color: #071952; /* Warna biru tua */
+    color: #EBF4F6; /* Warna abu-abu terang */
+    text-align: center;
+    padding: 10px 0;
+    border-top: 4px solid #37B7C3; /* Warna biru kehijauan terang */
+}
